@@ -2,7 +2,7 @@ module "iam_assumable_role" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-assumable-role"
 
   trusted_role_arns = [
-    "arn:aws:iam::280534998596:violetta-sevko",
+    "arn:aws:iam::280534998596:user/violetta-sevko",
   ]
 
   create_role = true
